@@ -1,7 +1,7 @@
-(* the "&& true") is needed to coherce the function to be boolean, otherwise it
- * would work for arbitrary types
+(* the "&& true" is needed to coherce the function to be boolean, otherwise a and b
+ * could be any type
  *)
-let mux2 sel a b = if sel then b && true else a && true;;
+let mux2 sel a b = (if sel then b else a) && true;;
 
 let mux2_bool sel a b = (not sel && a) || (sel && b);;
 

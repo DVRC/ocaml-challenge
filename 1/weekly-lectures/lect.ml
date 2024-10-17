@@ -2,9 +2,9 @@ type weekday = Mo | Tu | We | Th | Fr;;
 
 type course = ALF | LIP;;
 
-(* I was ready to use the heavy weapons, but then I realized there was a
+(* I was ready to use the "heavy weapons", but then I realized there was a
  * simpler way to do it...
-*)
+ *)
 let isLecture d c = match c with
     ALF -> d != Mo && d != We
   | LIP -> d == We || d == Th
