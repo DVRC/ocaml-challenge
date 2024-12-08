@@ -65,6 +65,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [1st, 3rd and 5th](3/first-third-fifth/README.md)
 1. [Random list](3/rnd-list/README.md)
 1. [Rotate list](3/rotate-list/README.md)
+1. [List comparison](3/compare-list/README.md)
 1. [Consecutive even](3/consecutive-even/README.md)
 1. [Key-value maps](3/keyval/README.md)
 1. [Bounce](3/bounce/README.md)
@@ -76,7 +77,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 1. [Sets](3/set/README.md) 
 1. [Simple language recognizers](3/lang-recognizers/README.md)
 1. [Extract an element from a list](3/extract/README.md)
-1. [Merge Sort](3/mergesort/README.md)
+1. [Merge sort](3/mergesort/README.md)
 1. [Deck of cards](3/deck-of-cards/README.md)
 1. [ALF students](3/alf-students/README.md)
 
